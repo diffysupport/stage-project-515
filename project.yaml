@@ -21,7 +21,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: 'iframe[src*=livechatwidget]'
+    remove: ''
     delay: 15
     scroll: true
     headers:
@@ -50,6 +50,6 @@ advanced:
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
-    stabilize: true
+    stabilize: false
 proxy: false
 type: single-site
