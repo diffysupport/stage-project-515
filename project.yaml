@@ -21,7 +21,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: ''
+    remove: 'iframe[src*=livechatwidget]'
     delay: 15
     scroll: true
     headers:
@@ -30,7 +30,7 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content:
-        - { selector: '', type: title }
+        - { type: title, selector: '' }
     sensitivity: 15
     night_mode: false
     retina_images: false
